@@ -2,7 +2,7 @@ try:
     Van = float(input(" Nhap diem van:"))
     Toan = float(input(" Nhap diem toan:"))
     Anh = float(input(" Nhap diem anh:"))
-except:
+except ValueError:
     print("Loi sai nhap lieu!")
 else:
     tb = ( Van + Toan + Anh)/3
